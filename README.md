@@ -41,3 +41,122 @@ Then, add *C:\vcpkg\installed\x64-windows\bin* and *C:\vcpkg\installed\x64-windo
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./2D_feature_tracking`.
+
+## Tasks
+### MP.1 Data buffer optimization
+        // push image into data frame buffer
+        DataFrame frame;
+        frame.cameraImg = imgGray;
+        if(dataBuffer.size()>=dataBufferSize){
+            dataBuffer.erase(dataBuffer.begin());
+        }
+        assert(dataBuffer.size() <= dataBufferSize);
+        dataBuffer.push_back(frame);
+
+### MP.2 Keypoint detection
+_Lines 85105 in MidTermProject_Camera_Student.cpp_
+```
+        if (detectorType.compare("SHITOMASI") == 0)
+        {
+            detKeypointsShiTomasi(keypoints, imgGray, false);
+        }
+        else if (detectorType.compare("HARRIS") == 0)
+        {
+            detKeypointsHarris(keypoints, imgGray, false);
+        }
+        else if (detectorType.compare("FAST")  == 0 ||
+                 detectorType.compare("BRISK") == 0 ||
+                 detectorType.compare("ORB")   == 0 ||
+                 detectorType.compare("AKAZE") == 0 ||
+                 detectorType.compare("SIFT")  == 0)
+        {
+            detKeypointsModern(keypoints, imgGray, detectorType, false);
+        }
+
+        else
+        {
+            throw invalid_argument(detectorType + " is not a valid detectorType");
+        }
+```
+### MP.3 Keypoint removal
+_Lines 113-124 in MidTermProject_Camera_Student.cpp_
+```
+        bool bFocusOnVehicle = true;
+        cv::Rect vehicleRect(535, 180, 180, 150);
+        if (bFocusOnVehicle)
+        {
+            auto it = keypoints.begin();
+            while(it != keypoints.end()){
+                if(vehicleRect.contains(it->pt))
+                    it++;
+                else
+                    it=keypoints.erase(it);
+            }
+        }
+```
+
+### MP.4 Keypoint descriptors
+_Lines 157 in MidTermProject_Camera_Student.cpp_
+```
+descKeypoints((dataBuffer.end() - 1)->keypoints, (dataBuffer.end() - 1)->cameraImg, descriptors, descriptorType);
+```
+
+### MP.5 Descriptor matching
+The function `matchDescriptors` in `matching2D_Student.cpp` contains a kind of decision tree structure, based on the settings of these string parameters:
+- `descriptorCategory` either: `DES_BINARY` (binary), `DES_HOG` (histogram of gradients)
+- `matcherType` either: `MAT_FLANN` (cv::FlannBasedMatcher), `MAT_BF` (brute force)
+- `selectorType` either: `SEL_NN` (nearest neighbors), `SEL_KNN` (k nearest neighbors)
+
+All descriptor type except SIFT use the descriptorCategory keyword `DES_BINARY`.
+
+_Lines 174-178 in MidTermProject_Camera_Student.cpp_
+```
+            string descriptorArt; // DES_BINARY, DES_HOG
+            if(descriptorType.compare("BRIEF")==0 or descriptorType.compare("BRISK")==0 or descriptorType.compare("AKAZE")==0 or descriptorType.compare("FREAK")==0 or descriptorType.compare("ORB")==0)
+                descriptorArt="DES_BINARY";
+            else
+                descriptorArt="DES_HOG";
+```
+For the performance benchmarks (MP.7-9) below, `matcherType` was set to `MAT_BF` and `selectorType` was set to `SEL_KNN`, which implements match filtering based on the descriptor distance ratio.
+
+### MP.6 Descriptor distance ratio
+_Lines 36-49 in matching2D_Student.cpp_
+
+This distance ratio filter compares the distance (SSD) between two candidate matched keypoint descriptors. A threshold of `0.8` is applied and the stronger candidate (minimum distance) is selected as the correct match. This method eliminates many false-positive keypoint matches.
+
+    { // k nearest neighbors (k=2)
+        vector<vector<cv::DMatch>> knn_matches;
+        matcher->knnMatch(descSource, descRef, knn_matches, 2); // finds the 2 best matches
+        // filter matches using descriptor distance ratio test
+        double minDescDistRatio = 0.8;
+        for (auto it = knn_matches.begin(); it != knn_matches.end(); ++it)
+        {
+
+            if ((*it)[0].distance < minDescDistRatio * (*it)[1].distance)
+            {
+                matches.push_back((*it)[0]);
+            }
+        }
+    }
+
+### MP.7 Performance evaluation 1
+The number of keypoints within the bounding box of the preceding vehicle were counted for each detector type.
+
+See the results in: result.txt
+
+Harris had the fewest relevant keypoints, while the top three performers in this metric were:
+1. BRISK (250-300 keypoints per image)
+2. AKAZE (150-180 keypoints per image)
+3. FAST  (140-160 keypoints per image)
+
+### MP.8 Performance evaluation 2
+The number of matched keypoints were then counted for each valid detector type and descriptor type combination. Note that ORB descriptors could not be extracted with SIFT detectors, and AKAZE descriptors worked only with AKAZE detectors.
+
+The BRISK detectors  (broadly with most Keypoints) with BRIEF, SIFT, and BRISK descriptors consistently produced the largest number of matched keypoints (~280 per image).
+
+### MP.9 Performance evaluation 3
+
+The three fastest combinations were:
+1. FAST + BRIEF
+1. FAST + ORB
+1. ORB + BRIEF
