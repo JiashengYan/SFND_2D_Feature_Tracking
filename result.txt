@@ -1,0 +1,350 @@
+    HARRIS +      FREAK              14 detections              13 matches     11.168 +  20.776 + 0.19116 ms
+    HARRIS +      FREAK              18 detections              13 matches     14.016 +   23.05 + 0.086477 ms
+    HARRIS +      FREAK              21 detections              15 matches     13.543 +  24.801 +  0.1089 ms
+    HARRIS +      FREAK              26 detections              15 matches     14.877 +  23.765 + 0.11212 ms
+    HARRIS +      FREAK              43 detections              17 matches     24.565 +  20.082 + 0.11555 ms
+    HARRIS +      FREAK              18 detections              20 matches     11.962 +  19.566 + 0.11471 ms
+    HARRIS +      FREAK              31 detections              14 matches     13.336 +  19.624 + 0.086535 ms
+    HARRIS +      FREAK              26 detections              21 matches     12.918 +   19.92 + 0.095691 ms
+    HARRIS +      FREAK              34 detections              18 matches     16.637 +  19.938 + 0.18519 ms
+
+    HARRIS +      BRIEF              14 detections              14 matches     11.514 + 0.76262 + 0.16003 ms
+    HARRIS +      BRIEF              18 detections              11 matches     11.859 + 0.73062 + 0.093338 ms
+    HARRIS +      BRIEF              21 detections              15 matches     11.384 +  0.3814 + 0.084918 ms
+    HARRIS +      BRIEF              26 detections              20 matches     11.971 + 0.40619 + 0.076508 ms
+    HARRIS +      BRIEF              43 detections              24 matches     25.447 + 0.47262 + 0.087258 ms
+    HARRIS +      BRIEF              18 detections              26 matches     10.822 + 0.49034 + 0.10045 ms
+    HARRIS +      BRIEF              31 detections              16 matches     13.699 + 0.40069 + 0.076396 ms
+    HARRIS +      BRIEF              26 detections              24 matches     12.116 + 0.43351 + 0.095396 ms
+    HARRIS +      BRIEF              34 detections              23 matches     16.724 + 0.52127 + 0.12148 ms
+
+    HARRIS +      BRISK              14 detections              12 matches     12.892 +  21.838 +  0.1855 ms
+    HARRIS +      BRISK              18 detections              10 matches     11.164 +  40.349 + 0.099123 ms
+    HARRIS +      BRISK              21 detections              14 matches     11.417 +   20.54 + 0.079655 ms
+    HARRIS +      BRISK              26 detections              15 matches     12.776 +   22.14 + 0.090195 ms
+    HARRIS +      BRISK              43 detections              16 matches      26.06 +  26.695 + 0.099339 ms
+    HARRIS +      BRISK              18 detections              16 matches     11.618 +  21.322 + 0.093969 ms
+    HARRIS +      BRISK              31 detections              15 matches     13.532 +  21.991 + 0.09924 ms
+    HARRIS +      BRISK              26 detections              23 matches     12.681 +  21.691 + 0.076992 ms
+    HARRIS +      BRISK              34 detections              21 matches      17.81 +  23.169 + 0.12946 ms
+
+    HARRIS +        ORB              14 detections              12 matches     11.359 +  2.4974 + 0.16285 ms
+    HARRIS +        ORB              18 detections              13 matches     12.152 +  2.3442 + 0.064773 ms
+    HARRIS +        ORB              21 detections              16 matches     14.857 +  2.6124 + 0.10593 ms
+    HARRIS +        ORB              26 detections              18 matches     12.491 +   2.015 +  0.0712 ms
+    HARRIS +        ORB              43 detections              24 matches     24.904 +  2.0125 + 0.084649 ms
+    HARRIS +        ORB              18 detections              18 matches     11.208 +  2.0862 + 0.09428 ms
+    HARRIS +        ORB              31 detections              15 matches     14.156 +  2.1171 + 0.074587 ms
+    HARRIS +        ORB              26 detections              24 matches     12.024 +  2.1709 + 0.090505 ms
+    HARRIS +        ORB              34 detections              20 matches     16.931 +  1.9974 + 0.086679 ms
+
+    HARRIS +       SIFT              14 detections              14 matches     11.041 +  15.068 + 0.13821 ms
+    HARRIS +       SIFT              18 detections              11 matches     11.543 +  15.585 + 0.07318 ms
+    HARRIS +       SIFT              21 detections              16 matches     12.063 +  13.598 + 0.07579 ms
+    HARRIS +       SIFT              26 detections              19 matches     13.245 +  16.163 +   0.102 ms
+    HARRIS +       SIFT              43 detections              22 matches     26.873 +  16.886 + 0.13401 ms
+    HARRIS +       SIFT              18 detections              22 matches     11.188 +  12.902 + 0.10114 ms
+    HARRIS +       SIFT              31 detections              13 matches     14.321 +  14.525 + 0.077537 ms
+    HARRIS +       SIFT              26 detections              24 matches     12.529 +  13.156 + 0.097016 ms
+    HARRIS +       SIFT              34 detections              22 matches      16.71 +  13.427 + 0.10211 ms
+
+ SHITOMASI +      FREAK             118 detections              90 matches     11.144 +  21.842 + 0.47307 ms
+ SHITOMASI +      FREAK             123 detections              88 matches     10.836 +  23.113 + 0.31864 ms
+ SHITOMASI +      FREAK             120 detections              87 matches     10.463 +  20.243 + 0.30178 ms
+ SHITOMASI +      FREAK             120 detections              89 matches     9.9747 +   27.05 +  0.5586 ms
+ SHITOMASI +      FREAK             113 detections              83 matches     14.089 +  20.316 +  0.3257 ms
+ SHITOMASI +      FREAK             114 detections              78 matches     10.211 +  21.059 + 0.28138 ms
+ SHITOMASI +      FREAK             123 detections              81 matches     10.272 +  20.293 + 0.32261 ms
+ SHITOMASI +      FREAK             111 detections              86 matches     11.517 +  24.593 + 0.38883 ms
+ SHITOMASI +      FREAK             112 detections              84 matches     10.965 +  22.542 + 0.50354 ms
+
+ SHITOMASI +      BRIEF             118 detections             115 matches      14.84 +  1.1882 + 0.44287 ms
+ SHITOMASI +      BRIEF             123 detections             111 matches     11.317 +  0.7945 + 0.40194 ms
+ SHITOMASI +      BRIEF             120 detections             104 matches     10.211 + 0.54797 + 0.30097 ms
+ SHITOMASI +      BRIEF             120 detections             101 matches     10.432 + 0.59906 + 0.31542 ms
+ SHITOMASI +      BRIEF             113 detections             102 matches     10.241 +  0.8063 + 0.28648 ms
+ SHITOMASI +      BRIEF             114 detections             102 matches     10.165 + 0.56072 + 0.27851 ms
+ SHITOMASI +      BRIEF             123 detections             100 matches     10.922 + 0.84704 + 0.47245 ms
+ SHITOMASI +      BRIEF             111 detections             109 matches     10.898 + 0.65432 + 0.30744 ms
+ SHITOMASI +      BRIEF             112 detections             100 matches     11.179 + 0.57241 + 0.28347 ms
+
+ SHITOMASI +      BRISK             118 detections              95 matches      10.54 +  28.835 + 0.89405 ms
+ SHITOMASI +      BRISK             123 detections              88 matches     10.464 +  40.352 + 0.38699 ms
+ SHITOMASI +      BRISK             120 detections              80 matches     10.193 +  21.444 +  0.3272 ms
+ SHITOMASI +      BRISK             120 detections              90 matches     10.023 +  21.702 + 0.30562 ms
+ SHITOMASI +      BRISK             113 detections              82 matches     10.608 +  21.336 +  0.3113 ms
+ SHITOMASI +      BRISK             114 detections              79 matches     10.117 +  21.875 + 0.29286 ms
+ SHITOMASI +      BRISK             123 detections              85 matches     11.157 +  23.733 + 0.31585 ms
+ SHITOMASI +      BRISK             111 detections              86 matches     10.184 +  21.271 + 0.29825 ms
+ SHITOMASI +      BRISK             112 detections              82 matches     11.331 +  21.735 + 0.30156 ms
+
+ SHITOMASI +        ORB             118 detections             104 matches     10.493 +  2.3996 +  0.4995 ms
+ SHITOMASI +        ORB             123 detections             103 matches     10.888 +  2.2688 + 0.30501 ms
+ SHITOMASI +        ORB             120 detections             100 matches     10.245 +  2.2735 + 0.31933 ms
+ SHITOMASI +        ORB             120 detections             102 matches     10.578 +   2.195 + 0.37976 ms
+ SHITOMASI +        ORB             113 detections             103 matches     10.296 +  2.1719 + 0.29126 ms
+ SHITOMASI +        ORB             114 detections              98 matches     11.123 +   2.371 + 0.30753 ms
+ SHITOMASI +        ORB             123 detections              98 matches     10.312 +  2.2068 + 0.27452 ms
+ SHITOMASI +        ORB             111 detections             102 matches     10.394 +  2.2881 + 0.62083 ms
+ SHITOMASI +        ORB             112 detections              97 matches     10.255 +  2.2229 +   0.267 ms
+
+ SHITOMASI +       SIFT             118 detections             112 matches     13.013 +  14.606 +  1.0151 ms
+ SHITOMASI +       SIFT             123 detections             109 matches     10.524 +  18.531 + 0.41794 ms
+ SHITOMASI +       SIFT             120 detections             104 matches     11.157 +  13.153 + 0.48514 ms
+ SHITOMASI +       SIFT             120 detections             103 matches     11.192 +  13.734 + 0.38071 ms
+ SHITOMASI +       SIFT             113 detections              99 matches     11.347 +  13.559 + 0.37331 ms
+ SHITOMASI +       SIFT             114 detections             101 matches     10.651 +  13.252 + 0.58388 ms
+ SHITOMASI +       SIFT             123 detections              96 matches     12.153 +  14.788 + 0.35861 ms
+ SHITOMASI +       SIFT             111 detections             106 matches      10.92 +  13.302 + 0.38584 ms
+ SHITOMASI +       SIFT             112 detections              97 matches     10.758 +  14.301 + 0.35797 ms
+
+      FAST +      FREAK             152 detections              97 matches       0.81 +  22.321 +  1.2828 ms
+      FAST +      FREAK             150 detections              98 matches    0.78635 +  23.376 + 0.44409 ms
+      FAST +      FREAK             155 detections              94 matches    0.89807 +  20.645 + 0.40566 ms
+      FAST +      FREAK             149 detections              99 matches    0.91431 +  20.776 + 0.41948 ms
+      FAST +      FREAK             149 detections              88 matches     0.9044 +  20.927 + 0.39293 ms
+      FAST +      FREAK             156 detections              99 matches     1.2351 +  22.173 + 0.58205 ms
+      FAST +      FREAK             150 detections             104 matches    0.90096 +  20.617 + 0.39111 ms
+      FAST +      FREAK             138 detections              99 matches    0.85452 +  20.477 + 0.39774 ms
+      FAST +      FREAK             143 detections             103 matches    0.85218 +   21.01 + 0.37883 ms
+
+      FAST +      BRIEF             152 detections             119 matches     2.7002 + 0.62712 + 0.46022 ms
+      FAST +      BRIEF             150 detections             130 matches     1.0113 + 0.76294 + 0.50276 ms
+      FAST +      BRIEF             155 detections             118 matches    0.88929 + 0.62243 + 0.38533 ms
+      FAST +      BRIEF             149 detections             126 matches     1.0282 + 0.77087 + 0.42268 ms
+      FAST +      BRIEF             149 detections             108 matches    0.96472 + 0.67164 + 0.37619 ms
+      FAST +      BRIEF             156 detections             123 matches    0.79528 + 0.62616 + 0.37716 ms
+      FAST +      BRIEF             150 detections             131 matches    0.81047 + 0.77804 + 0.37907 ms
+      FAST +      BRIEF             138 detections             125 matches    0.87441 +  0.5907 + 0.35126 ms
+      FAST +      BRIEF             143 detections             119 matches    0.97619 + 0.61516 + 0.38901 ms
+
+      FAST +      BRISK             152 detections              97 matches     1.3139 +  32.567 + 0.42651 ms
+      FAST +      BRISK             150 detections             104 matches    0.80791 +  45.113 + 0.42487 ms
+      FAST +      BRISK             155 detections             101 matches    0.83693 +  22.062 + 0.41671 ms
+      FAST +      BRISK             149 detections              98 matches    0.89188 +  22.229 + 0.39955 ms
+      FAST +      BRISK             149 detections              85 matches     0.8629 +  21.882 +  0.3915 ms
+      FAST +      BRISK             156 detections             107 matches    0.86968 +  24.838 + 0.84907 ms
+      FAST +      BRISK             150 detections             107 matches    0.88339 +  22.114 + 0.42996 ms
+      FAST +      BRISK             138 detections             100 matches    0.88036 +  21.978 + 0.40218 ms
+      FAST +      BRISK             143 detections             100 matches    0.94122 +   21.85 + 0.43328 ms
+
+      FAST +        ORB             152 detections             122 matches    0.80736 +  2.4584 + 0.39759 ms
+      FAST +        ORB             150 detections             122 matches    0.83342 +  2.6024 + 0.41394 ms
+      FAST +        ORB             155 detections             115 matches     1.1236 +  2.2544 + 0.41056 ms
+      FAST +        ORB             149 detections             129 matches    0.89283 +  2.3365 +  0.4056 ms
+      FAST +        ORB             149 detections             107 matches    0.81268 +  2.1175 +  0.3735 ms
+      FAST +        ORB             156 detections             120 matches    0.79732 +    2.22 +  0.3654 ms
+      FAST +        ORB             150 detections             126 matches    0.84783 +  2.3233 + 0.51673 ms
+      FAST +        ORB             138 detections             122 matches    0.86471 +   2.107 + 0.35015 ms
+      FAST +        ORB             143 detections             118 matches     1.0214 +  2.1102 + 0.37468 ms
+
+      FAST +       SIFT             152 detections             118 matches    0.85181 +  16.548 + 0.52129 ms
+      FAST +       SIFT             150 detections             123 matches      0.876 +  17.691 + 0.73423 ms
+      FAST +       SIFT             155 detections             110 matches    0.89084 +  16.702 + 0.59584 ms
+      FAST +       SIFT             149 detections             119 matches    0.90228 +  15.887 +  0.5307 ms
+      FAST +       SIFT             149 detections             114 matches    0.88082 +  16.233 +  0.9077 ms
+      FAST +       SIFT             156 detections             119 matches    0.85116 +  16.399 +  1.0464 ms
+      FAST +       SIFT             150 detections             123 matches    0.81277 +  15.578 + 0.48195 ms
+      FAST +       SIFT             138 detections             117 matches      0.859 +  15.453 + 0.85974 ms
+      FAST +       SIFT             143 detections             103 matches    0.85873 +  15.646 + 0.47652 ms
+
+     BRISK +      FREAK             282 detections             160 matches     63.219 +  24.432 + 0.79414 ms
+     BRISK +      FREAK             282 detections             178 matches     91.509 +  23.837 + 0.70469 ms
+     BRISK +      FREAK             277 detections             156 matches     61.206 +  24.015 + 0.78514 ms
+     BRISK +      FREAK             297 detections             173 matches     64.179 +  24.121 + 0.86925 ms
+     BRISK +      FREAK             279 detections             160 matches     62.539 +  23.869 + 0.80519 ms
+     BRISK +      FREAK             289 detections             183 matches     58.607 +  24.091 + 0.84896 ms
+     BRISK +      FREAK             272 detections             169 matches     59.041 +  23.708 + 0.81181 ms
+     BRISK +      FREAK             266 detections             179 matches     70.639 +  28.739 + 0.73315 ms
+     BRISK +      FREAK             254 detections             168 matches     68.233 +  25.817 +   1.064 ms
+
+     BRISK +      BRIEF             282 detections             178 matches     58.151 + 0.83497 + 0.91669 ms
+     BRISK +      BRIEF             282 detections             205 matches     80.288 + 0.77561 +  0.8244 ms
+     BRISK +      BRIEF             277 detections             185 matches     57.414 +  1.2145 +  1.7101 ms
+     BRISK +      BRIEF             297 detections             179 matches     61.734 + 0.92114 + 0.91063 ms
+     BRISK +      BRIEF             279 detections             183 matches     59.616 + 0.80285 +  1.1832 ms
+     BRISK +      BRIEF             289 detections             195 matches     56.912 + 0.84558 + 0.88009 ms
+     BRISK +      BRIEF             272 detections             207 matches     57.135 +  1.0488 + 0.90656 ms
+     BRISK +      BRIEF             266 detections             189 matches     73.541 +  1.4337 +  1.4127 ms
+     BRISK +      BRIEF             254 detections             183 matches     70.564 + 0.79108 + 0.73604 ms
+
+     BRISK +      BRISK             282 detections             171 matches     59.449 +  22.652 + 0.91785 ms
+     BRISK +      BRISK             282 detections             176 matches     80.328 +  22.768 +   1.021 ms
+     BRISK +      BRISK             277 detections             157 matches     58.812 +   22.12 + 0.91898 ms
+     BRISK +      BRISK             297 detections             176 matches     63.233 +  26.352 +  1.0734 ms
+     BRISK +      BRISK             279 detections             174 matches     63.309 +  22.652 +  1.0733 ms
+     BRISK +      BRISK             289 detections             188 matches     60.677 +  26.251 +  1.6189 ms
+     BRISK +      BRISK             272 detections             173 matches     58.717 +  23.742 + 0.87719 ms
+     BRISK +      BRISK             266 detections             171 matches      59.31 +  22.804 + 0.90836 ms
+     BRISK +      BRISK             254 detections             184 matches      56.33 +  22.504 + 0.70957 ms
+
+     BRISK +        ORB             282 detections             160 matches     60.612 +  7.0519 + 0.94643 ms
+     BRISK +        ORB             282 detections             171 matches     82.105 +  7.2487 + 0.94918 ms
+     BRISK +        ORB             277 detections             157 matches     61.444 +  7.8689 + 0.91602 ms
+     BRISK +        ORB             297 detections             170 matches     62.606 +  6.9288 +  1.0349 ms
+     BRISK +        ORB             279 detections             154 matches     60.917 +  7.4406 + 0.87431 ms
+     BRISK +        ORB             289 detections             180 matches     61.953 +  12.717 + 0.80621 ms
+     BRISK +        ORB             272 detections             171 matches     65.438 +  11.756 +  3.0345 ms
+     BRISK +        ORB             266 detections             175 matches     60.943 +  9.4872 +  1.0137 ms
+     BRISK +        ORB             254 detections             172 matches     59.525 +  7.0868 +  0.7559 ms
+
+     BRISK +       SIFT             282 detections             182 matches     81.159 +  41.984 +  1.4725 ms
+     BRISK +       SIFT             282 detections             193 matches     80.938 +  41.091 +  2.9304 ms
+     BRISK +       SIFT             277 detections             169 matches     83.891 +  41.916 +  1.3094 ms
+     BRISK +       SIFT             297 detections             183 matches     81.784 +  42.789 +  1.6222 ms
+     BRISK +       SIFT             279 detections             171 matches     83.598 +  43.941 +  1.4706 ms
+     BRISK +       SIFT             289 detections             195 matches     81.912 +  42.572 +  1.5837 ms
+     BRISK +       SIFT             272 detections             194 matches     87.898 +  41.689 +  1.8512 ms
+     BRISK +       SIFT             266 detections             176 matches     88.808 +  41.108 +  1.1946 ms
+     BRISK +       SIFT             254 detections             183 matches     83.537 +  41.673 +  1.1703 ms
+
+       ORB +      FREAK             102 detections              42 matches     7.4153 +  20.642 + 0.22891 ms
+       ORB +      FREAK             106 detections              36 matches     10.457 +  25.512 + 0.15654 ms
+       ORB +      FREAK             113 detections              45 matches     6.7184 +  19.965 + 0.42507 ms
+       ORB +      FREAK             109 detections              47 matches     6.6742 +  19.811 + 0.14812 ms
+       ORB +      FREAK             125 detections              44 matches     6.5478 +  20.185 + 0.27954 ms
+       ORB +      FREAK             130 detections              51 matches     6.8256 +  19.685 + 0.15511 ms
+       ORB +      FREAK             129 detections              52 matches     6.7413 +  19.779 + 0.17547 ms
+       ORB +      FREAK             127 detections              49 matches     6.7816 +  19.823 + 0.19369 ms
+       ORB +      FREAK             128 detections              55 matches     6.7336 +  19.965 + 0.17472 ms
+
+       ORB +      BRIEF             102 detections              49 matches        6.6 + 0.60913 + 0.27782 ms
+       ORB +      BRIEF             106 detections              43 matches     7.2334 +  0.8824 + 0.24123 ms
+       ORB +      BRIEF             113 detections              45 matches     7.0056 + 0.49438 + 0.24454 ms
+       ORB +      BRIEF             109 detections              59 matches      6.352 + 0.51371 + 0.26327 ms
+       ORB +      BRIEF             125 detections              53 matches     6.8933 + 0.62162 + 0.32871 ms
+       ORB +      BRIEF             130 detections              78 matches     6.7797 + 0.51329 + 0.31198 ms
+       ORB +      BRIEF             129 detections              68 matches     6.4996 + 0.59649 + 0.36023 ms
+       ORB +      BRIEF             127 detections              84 matches     6.6908 + 0.56351 + 0.31338 ms
+       ORB +      BRIEF             128 detections              66 matches     6.4274 +   0.647 + 0.36663 ms
+
+       ORB +      BRISK             102 detections              73 matches     8.6197 +  25.539 + 0.33806 ms
+       ORB +      BRISK             106 detections              74 matches     12.326 +  40.365 + 0.31513 ms
+       ORB +      BRISK             113 detections              79 matches     6.7635 +  21.483 + 0.29038 ms
+       ORB +      BRISK             109 detections              85 matches     6.6968 +  20.869 + 0.26891 ms
+       ORB +      BRISK             125 detections              79 matches      6.392 +  21.186 + 0.46793 ms
+       ORB +      BRISK             130 detections              92 matches     6.5856 +  21.497 +  0.3263 ms
+       ORB +      BRISK             129 detections              90 matches     6.3162 +  21.774 +  0.3104 ms
+       ORB +      BRISK             127 detections              88 matches     7.2375 +  20.957 + 0.30133 ms
+       ORB +      BRISK             128 detections              91 matches     6.9116 +  21.259 + 0.32087 ms
+
+       ORB +        ORB             102 detections              65 matches     6.2071 +   7.622 + 0.27346 ms
+       ORB +        ORB             106 detections              69 matches     7.0817 +  7.5623 + 0.20104 ms
+       ORB +        ORB             113 detections              71 matches     6.8324 +  7.1817 + 0.24452 ms
+       ORB +        ORB             109 detections              85 matches     6.6782 +  7.3237 + 0.25172 ms
+       ORB +        ORB             125 detections              91 matches     6.5883 +  7.5191 + 0.29054 ms
+       ORB +        ORB             130 detections             101 matches     6.7846 +  7.4284 + 0.29536 ms
+       ORB +        ORB             129 detections              95 matches     6.7919 +  7.2863 + 0.32169 ms
+       ORB +        ORB             127 detections              93 matches     6.8134 +  7.6374 + 0.32326 ms
+       ORB +        ORB             128 detections              91 matches      6.843 +   7.284 + 0.30541 ms
+
+       ORB +       SIFT             102 detections              67 matches     8.3293 +  60.774 + 0.74594 ms
+       ORB +       SIFT             106 detections              79 matches     7.5462 +  41.453 + 0.64489 ms
+       ORB +       SIFT             113 detections              78 matches     6.9658 +    41.4 + 0.33791 ms
+       ORB +       SIFT             109 detections              79 matches     7.0649 +  35.459 + 0.48217 ms
+       ORB +       SIFT             125 detections              82 matches     9.8036 +  61.754 +  1.1576 ms
+       ORB +       SIFT             130 detections              95 matches      7.459 +  39.836 + 0.46514 ms
+       ORB +       SIFT             129 detections              95 matches       7.09 +  42.133 + 0.41372 ms
+       ORB +       SIFT             127 detections              94 matches     7.3599 +  41.545 + 0.46974 ms
+       ORB +       SIFT             128 detections              94 matches     6.9167 +  42.252 + 0.39677 ms
+
+     AKAZE +      FREAK             157 detections             126 matches     126.38 +  34.244 +  4.4376 ms
+     AKAZE +      FREAK             161 detections             128 matches     156.91 +  40.319 + 0.86475 ms
+     AKAZE +      FREAK             155 detections             128 matches     110.15 +  23.403 + 0.52976 ms
+     AKAZE +      FREAK             163 detections             121 matches     107.95 +  23.371 +   0.456 ms
+     AKAZE +      FREAK             164 detections             123 matches      107.7 +   24.72 +   0.429 ms
+     AKAZE +      FREAK             173 detections             132 matches     96.154 +  23.414 + 0.46769 ms
+     AKAZE +      FREAK             175 detections             145 matches     98.155 +  23.615 + 0.46658 ms
+     AKAZE +      FREAK             177 detections             148 matches     124.37 +  23.601 + 0.46868 ms
+     AKAZE +      FREAK             179 detections             137 matches     96.179 +  24.087 + 0.52193 ms
+
+     AKAZE +      BRIEF             157 detections             141 matches     101.26 +  1.8168 + 0.43298 ms
+     AKAZE +      BRIEF             161 detections             134 matches     103.29 +  1.0299 + 0.43593 ms
+     AKAZE +      BRIEF             155 detections             131 matches     100.61 + 0.93909 + 0.50657 ms
+     AKAZE +      BRIEF             163 detections             130 matches     94.785 +  1.0572 + 0.38596 ms
+     AKAZE +      BRIEF             164 detections             134 matches     95.584 +  1.1144 + 0.44784 ms
+     AKAZE +      BRIEF             173 detections             146 matches     97.091 +  1.8784 + 0.44425 ms
+     AKAZE +      BRIEF             175 detections             150 matches     93.515 + 0.92558 + 0.44607 ms
+     AKAZE +      BRIEF             177 detections             148 matches     93.033 +  1.0033 + 0.43996 ms
+     AKAZE +      BRIEF             179 detections             152 matches     97.708 + 0.96428 + 0.48663 ms
+
+     AKAZE +      BRISK             157 detections             137 matches     107.02 +  42.035 + 0.54371 ms
+     AKAZE +      BRISK             161 detections             125 matches     104.78 +  41.139 + 0.43736 ms
+     AKAZE +      BRISK             155 detections             129 matches     108.63 +  40.938 +    0.49 ms
+     AKAZE +      BRISK             163 detections             129 matches     103.26 +   40.33 +  0.4625 ms
+     AKAZE +      BRISK             164 detections             131 matches     98.533 +   40.01 + 0.46122 ms
+     AKAZE +      BRISK             173 detections             132 matches     99.686 +  39.783 + 0.56108 ms
+     AKAZE +      BRISK             175 detections             142 matches     97.157 +  39.462 + 0.53771 ms
+     AKAZE +      BRISK             177 detections             146 matches     101.35 +  41.981 + 0.47402 ms
+     AKAZE +      BRISK             179 detections             144 matches     107.61 +  41.133 + 0.47698 ms
+
+     AKAZE +        ORB             157 detections             130 matches     99.868 +  5.2897 +  0.5574 ms
+     AKAZE +        ORB             161 detections             129 matches     109.07 +  5.5547 + 0.42082 ms
+     AKAZE +        ORB             155 detections             128 matches     95.474 +   5.384 + 0.41179 ms
+     AKAZE +        ORB             163 detections             115 matches     96.099 +  5.4645 + 0.43094 ms
+     AKAZE +        ORB             164 detections             132 matches     91.856 +  5.5345 + 0.43937 ms
+     AKAZE +        ORB             173 detections             132 matches     95.462 +  6.0334 + 0.41731 ms
+     AKAZE +        ORB             175 detections             137 matches     94.371 +   5.485 + 0.47987 ms
+     AKAZE +        ORB             177 detections             137 matches     94.785 +  5.5668 + 0.47887 ms
+     AKAZE +        ORB             179 detections             146 matches     102.69 +   6.102 + 0.48043 ms
+
+     AKAZE +      AKAZE             157 detections             138 matches     111.04 +  96.993 + 0.53034 ms
+     AKAZE +      AKAZE             161 detections             138 matches     109.52 +  95.002 + 0.49243 ms
+     AKAZE +      AKAZE             155 detections             133 matches     96.793 +  83.484 + 0.51655 ms
+     AKAZE +      AKAZE             163 detections             127 matches     95.778 +   82.64 + 0.47824 ms
+     AKAZE +      AKAZE             164 detections             129 matches     91.851 +  95.141 + 0.54623 ms
+     AKAZE +      AKAZE             173 detections             146 matches     95.274 +  83.797 + 0.59414 ms
+     AKAZE +      AKAZE             175 detections             147 matches     96.354 +  96.863 + 0.50897 ms
+     AKAZE +      AKAZE             177 detections             151 matches     100.67 +  84.297 + 0.59898 ms
+     AKAZE +      AKAZE             179 detections             150 matches     155.62 +  108.38 + 0.51182 ms
+
+     AKAZE +       SIFT             157 detections             134 matches     147.37 +  23.331 + 0.73437 ms
+     AKAZE +       SIFT             161 detections             134 matches     101.19 +  22.293 + 0.56034 ms
+     AKAZE +       SIFT             155 detections             130 matches     99.305 +  22.219 + 0.52246 ms
+     AKAZE +       SIFT             163 detections             136 matches     99.288 +  22.271 + 0.53507 ms
+     AKAZE +       SIFT             164 detections             137 matches     99.465 +  22.615 +  0.4703 ms
+     AKAZE +       SIFT             173 detections             147 matches     94.651 +  22.707 + 0.57578 ms
+     AKAZE +       SIFT             175 detections             147 matches        100 +  29.202 + 0.98843 ms
+     AKAZE +       SIFT             177 detections             154 matches     99.605 +  23.387 +  1.0141 ms
+     AKAZE +       SIFT             179 detections             151 matches     93.595 +  22.732 + 0.63487 ms
+
+      SIFT +      FREAK             132 detections              64 matches     133.98 +  26.295 + 0.38886 ms
+      SIFT +      FREAK             124 detections              72 matches     161.32 +  23.842 + 0.33631 ms
+      SIFT +      FREAK             137 detections              65 matches     112.35 +  23.562 + 0.35717 ms
+      SIFT +      FREAK             134 detections              66 matches     115.56 +  23.094 + 0.34693 ms
+      SIFT +      FREAK             140 detections              63 matches     114.59 +  23.532 + 0.38343 ms
+      SIFT +      FREAK             137 detections              58 matches     112.18 +  22.947 + 0.33511 ms
+      SIFT +      FREAK             148 detections              64 matches     111.72 +  24.435 + 0.71526 ms
+      SIFT +      FREAK             159 detections              65 matches     115.08 +  23.204 + 0.45748 ms
+      SIFT +      FREAK             137 detections              79 matches     112.62 +  22.876 +  0.3485 ms
+
+      SIFT +      BRIEF             132 detections              86 matches     115.11 +  1.4657 + 0.36744 ms
+      SIFT +      BRIEF             124 detections              78 matches     143.12 + 0.72478 + 0.30689 ms
+      SIFT +      BRIEF             137 detections              76 matches     118.71 + 0.85194 + 0.29278 ms
+      SIFT +      BRIEF             134 detections              85 matches      149.8 + 0.59254 + 0.35913 ms
+      SIFT +      BRIEF             140 detections              69 matches     120.78 + 0.61368 + 0.35388 ms
+      SIFT +      BRIEF             137 detections              74 matches     111.09 + 0.55099 +  0.3657 ms
+      SIFT +      BRIEF             148 detections              76 matches     111.24 + 0.57828 +  0.3316 ms
+      SIFT +      BRIEF             159 detections              70 matches      131.9 + 0.64466 + 0.51063 ms
+      SIFT +      BRIEF             137 detections              88 matches     152.79 + 0.74742 + 0.40768 ms
+
+      SIFT +      BRISK             132 detections              64 matches     137.09 +   42.03 + 0.50081 ms
+      SIFT +      BRISK             124 detections              66 matches     186.04 +   41.74 + 0.34798 ms
+      SIFT +      BRISK             137 detections              62 matches     125.93 +  40.642 + 0.32941 ms
+      SIFT +      BRISK             134 detections              66 matches     121.58 +  39.684 + 0.38559 ms
+      SIFT +      BRISK             140 detections              59 matches     124.11 +  40.158 + 0.35943 ms
+      SIFT +      BRISK             137 detections              64 matches      121.1 +  39.233 + 0.42881 ms
+      SIFT +      BRISK             148 detections              64 matches     117.49 +  40.191 + 0.36225 ms
+      SIFT +      BRISK             159 detections              67 matches     119.37 +  40.329 + 0.45095 ms
+      SIFT +      BRISK             137 detections              80 matches     117.28 +  40.366 + 0.43251 ms
+
+      SIFT +       SIFT             132 detections              82 matches     119.05 +  75.505 + 0.52391 ms
+      SIFT +       SIFT             124 detections              81 matches     138.23 +  72.334 +  0.4494 ms
+      SIFT +       SIFT             137 detections              85 matches     111.92 +   72.54 + 0.47461 ms
+      SIFT +       SIFT             134 detections              93 matches     114.79 +  71.557 + 0.59353 ms
+      SIFT +       SIFT             140 detections              90 matches     116.02 +  78.948 + 0.43949 ms
+      SIFT +       SIFT             137 detections              81 matches     114.36 +  73.469 + 0.54296 ms
+      SIFT +       SIFT             148 detections              82 matches     113.18 +  71.304 + 0.50217 ms
+      SIFT +       SIFT             159 detections             102 matches     114.28 +  73.736 + 0.54103 ms
+      SIFT +       SIFT             137 detections             104 matches     112.25 +  71.725 + 0.49644 ms
+
